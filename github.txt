@@ -1,0 +1,23 @@
+1. The command pwd.
+2. The command ls ~/music/ and files depend on your own specific set up. Since it is named “music,” music files like mp3 may be in there.
+3. The command nano.
+4. The command cat.
+5. The command diff.
+6. The command mv.
+7. The command rm.
+8. The command cd ../math/.
+9. The command is git init.
+10. The command is git remote add origin <url>.
+11. The command cp.
+12. The command git status. If symmetry.txt isn't under tracked for git, then git is not tracking it yet. If it shows up under changes to be committed or changes not staged to commit then it is being tracked.
+13. The command git add symmetry.txt for just the one and git add . for all of them.
+14. Yes, it is being tracked. You can input git reset to unstage symmetry.txt.
+15. The command git commit -m “Pushing symmetry.txt”
+16. The command git push origin main. You can replace main with a branch name if you want to push to that specific branch instead of the default main branch. In our scenario, we should be pushing any homework to the appropriate homework branch
+17. The command git branch applied_math.
+18. The command git checkout appliec_math.
+19. The following commands would be inputted: git add physics/, git commit -m “Adding physics directory with mechanics.txt”, git push origin applied_math. Git will get confused and these changes won’t properly be committed.
+20. The command git branch. The branch you are currently in will be colored green.
+21. The command git checkout main.
+22. The command git merge.
+
